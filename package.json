@@ -1,0 +1,37 @@
+{
+  "name": "hello-world-node-package",
+  "version": "1.0.0",
+  "description": "Creating Node Package. This is a simple exmaple of creating node pakcage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "package",
+    "manager",
+    "create",
+    "npm",
+    "adduser",
+    "pulish",
+    "demo",
+    "demonstration",
+    "example",
+    "simple",
+    "webrolls",
+    "caleem",
+    "kaleem",
+    "khan",
+    "beginners"
+  ],
+  "author": "Kaleem Khan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webrolls/hello-world-node-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webrolls/hello-world-node-package/issues"
+  },
+  "homepage": "https://github.com/webrolls/hello-world-node-package#readme"
+}
