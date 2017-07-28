@@ -3,21 +3,21 @@
 <div>I am creating a simple node package 'hello-world-node-package'</div>
 <i>index.js</i>
 <pre>
-	function helloWorld() {
+function helloWorld() {
 	console.log('Hello World!');
-	}
+}
 
-	function doSomethingAwesome() {
-		console.log('Doing something awesome...');	
-	}
+function doSomethingAwesome() {
+	console.log('Doing something awesome...');	
+}
 
-	function doSomethingElse() {
-		console.log('Now something else...');	
-	}
+function doSomethingElse() {
+	console.log('Now something else...');	
+}
 
-	module.exports = {
-		helloWorld: helloWorld,
-		doSomethingAwesome: doSomethingAwesome,
-		doSomethingElse: doSomethingElse
-	}
+module.exports = {
+	helloWorld: helloWorld,
+	doSomethingAwesome: doSomethingAwesome,
+	doSomethingElse: doSomethingElse
+}
 </pre>
