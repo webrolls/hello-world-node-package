@@ -72,6 +72,13 @@ test.doSomethingAwesome();
 test.doSomethingElse();
 </pre>
 
-and bingo! 
+and bingo! on the console we will see the following output
 
+<pre>
+Hello World!
+Doing something awesome...
+Now something else...
+</pre>
+
+~peace ~webrolls
 
