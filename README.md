@@ -58,8 +58,20 @@ module.exports = {
 <li>Thats all, we are done adding the package and its ready to used and download.</li>
 </ul>
 
+To verify if out package is working fine, you can install the package using
+<pre>
+npm install --save
+</pre>
 
-Thank You
+create a file 'index.js' and add
+<pre>
+var test = require('hello-world-node-package');
 
-Kaleem
+test.helloWorld();
+test.doSomethingAwesome();
+test.doSomethingElse();
+</pre>
+
+and bingo! 
+
 
