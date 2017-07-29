@@ -29,8 +29,8 @@ doSomethingElse: doSomethingElse
 <pre>npm adduser</pre></li>
 <li>it will prompt to ask your your name, password and your email id, provide the information and hit enter...</li>
 <li>verify your email address from npm site</li>
-<li>once the email id is confirmed, you can now publish the package using following command</li>
-<li>npm publish</li>
+<li>once the email id is confirmed, you can now publish the package using following command
+<pre>npm publish<pre></li>
 <li>done!</li>
 </ul>
 
