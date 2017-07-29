@@ -1,10 +1,10 @@
 <strong>Creating Node Package</strong>
-
 <p>This is a simple exmaple of creating node pakcage.</p>
 To create a node package 
 <ul>
-<li>create a folder say 'hello-world-node-package'</li>
-<li>create package.json - you can create package.json manually or run 'npm init' to auto generate it.
+<li>Create a folder say 'hello-world-node-package'</li>
+<li>Under this filder create package.json - you can create package.json manually or run 'npm init' to auto generate the file.</li>
+<li>My package.json looks something like this
 <pre>
 {
   "name": "hello-world-node-package",
@@ -29,33 +29,35 @@ To create a node package
 
 </pre>
 </li>
-<li>create index.js</li>
-<li>add your package logic into index.js</li>
-<li>for example for 'hello-world-node-package' we have following JavaScript
+<li>In the same folder create index.js and add all your package logic in this file.</li>
+<li>For example for 'hello-world-node-package' package I have following JavaScript
 <pre>
 function helloWorld() {
-console.log('Hello World!');
+  console.log('Hello World!');
 }
 function doSomethingAwesome() {
-console.log('Doing something awesome...');	
+  console.log('Doing something awesome...');  
 }
 function doSomethingElse() {
-console.log('Now something else...');	
+  console.log('Now something else...'); 
 }
 module.exports = {
-helloWorld: helloWorld,
-doSomethingAwesome: doSomethingAwesome,
-doSomethingElse: doSomethingElse
+  helloWorld: helloWorld,
+  doSomethingAwesome: doSomethingAwesome,
+  doSomethingElse: doSomethingElse
 }
 </pre>
 </li>
-<li>to publish the package to node site, run... 
-<pre>npm adduser</pre></li>
-<li>it will prompt to ask your your name, password and your email id, provide the information and hit enter...</li>
-<li>verify your email address from npm site</li>
-<li>once the email id is confirmed, you can now publish the package using following command.<pre>npm publish<pre></li>
-<li>Done!</li>
+<li>Now when you are done with the package implimentation its a time to publish the package... </li>
+<li>To publish the package run <pre>npm adduser</pre></li>
+<li>It will prompt to ask your your name, password and your email id, provide the information and hit enter...</li>
+<li>Verify your email address from npm site</li>
+<li>Once the email id is confirmed, you can now publish the package using using ... <pre>npm publish<pre></li>
+<li>If everything went as expected your package is added to the NPM</li>
+<li>You can confirm that the package is added successfuly by visiting https://www.npmjs.com/~your-user-name</li>
+<li>Thats all, we are done adding the package and its ready to used and download.</li>
 </ul>
+
 
 Thank You
 
